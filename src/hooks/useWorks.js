@@ -1,0 +1,120 @@
+
+export default function                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           useWorks() {
+
+    const arrWorks = [ 
+        {
+            id: 232,
+            title: 'MODASPORTS',
+            category: 'Web',
+            BackgroundI: 'https://firebasestorage.googleapis.com/v0/b/mzmenudigital.appspot.com/o/maza%2F243578700_621697642320517_2683650053448880272_n.webp.jpg?alt=media&token=b205226a-b3f9-4a9a-9624-52094d154124',
+            role: 'Frontend',
+            direction:'https://modasportss.com',
+            role2: 'Backend',
+            description:"Desarrollo con Reactjs,Redux,Nodejs,Mongodb",
+            autor: 'Andres Maza',
+            ocupation: 'Desarrollador web',
+            img1: 'https://firebasestorage.googleapis.com/v0/b/mzmenudigital.appspot.com/o/maza%2F243578700_621697642320517_2683650053448880272_n.webp.jpg?alt=media&token=b205226a-b3f9-4a9a-9624-52094d154124',
+        },
+        {
+            id: 434,
+            title: 'ELECTRILAMP',
+            category: 'Web',
+            BackgroundI: 'https://firebasestorage.googleapis.com/v0/b/mzmenudigital.appspot.com/o/maza%2F241994401_918059685492020_8891734658283177780_n.jpg?alt=media&token=fad20255-f851-4937-9826-5846410dfee9',
+            role: 'Frontend',
+            role2: 'Backend',
+            direction:'https://electrilamp.vercel.app',
+            description:"Desarrollo con Reactjs,Redux,Nodejs,Mongodb",
+            autor: 'Andres Maza',
+            ocupation: 'Desarrollador web',
+            img1: 'https://firebasestorage.googleapis.com/v0/b/mzmenudigital.appspot.com/o/maza%2F241994401_918059685492020_8891734658283177780_n.jpg?alt=media&token=fad20255-f851-4937-9826-5846410dfee9',
+        },
+        {
+            id: 7,
+            title: 'SOLUCIONES ASRI',
+            category: 'Web',
+            BackgroundI: 'https://firebasestorage.googleapis.com/v0/b/mazacloud.appspot.com/o/Imagen%2FDISE%C3%91O%20WEB%20ASRI%201.png?alt=media&token=5b41d42d-6b44-4b3d-98bc-af62502cf6c5',
+            role: 'Frontend',
+            role2: 'Backend',
+            description:"Desarrollo con Php y Mysql",
+            direction:'https://solucionesintgasri.com/',
+            autor: 'Andres Maza',
+            ocupation: 'Desarrollador web',
+            img1: 'https://firebasestorage.googleapis.com/v0/b/mazacloud.appspot.com/o/Imagen%2FDISE%C3%91O%20WEB%20ASRI%201.png?alt=media&token=5b41d42d-6b44-4b3d-98bc-af62502cf6c5',
+            img2: 'https://firebasestorage.googleapis.com/v0/b/mazacloud.appspot.com/o/Imagen%2FDISE%C3%91O%20WEB%20ASRI%202.png?alt=media&token=4e5c6ce2-bdc2-49ff-b080-d80ad8f2c052'
+        },
+        {
+            id: 12,
+            title: 'MZHOGAR',
+            category: 'Web',
+            role: 'DEMO MINI E-COMMERCE',
+            BackgroundI: 'https://firebasestorage.googleapis.com/v0/b/mazacloud.appspot.com/o/Imagen%2FWEB%20MZHOGAR.png?alt=media&token=c5db6a49-046f-46bb-8e0a-83d168f90739',
+            autor: 'Andres Maza',
+            direction:'https://mzhogar.web.app',
+            description:"Desarrollo con Reactjs, MaterialUi y Firebase",
+            ocupation: 'Desarrollador web',
+            img1: 'https://firebasestorage.googleapis.com/v0/b/mazacloud.appspot.com/o/Imagen%2FWEB%20MZHOGAR.png?alt=media&token=c5db6a49-046f-46bb-8e0a-83d168f90739',
+            img2: 'https://firebasestorage.googleapis.com/v0/b/mazacloud.appspot.com/o/Imagen%2FWEB%20MZHOGAR2.png?alt=media&token=12b9e28a-37d9-4c6e-9aa7-bf8a9bbdd364',
+            img3: 'https://firebasestorage.googleapis.com/v0/b/mazacloud.appspot.com/o/Imagen%2FWEB%20MZHOGAR3.png?alt=media&token=7ea091d9-2e46-457e-b90c-ed9b2d028025',
+        },
+        {
+            id: 83,
+            title: 'GOAL - APLICACIÓN PARA BUSCAR CONTRATISTAS',
+            category: 'Web',
+            BackgroundI: "https://firebasestorage.googleapis.com/v0/b/panaobrero.appspot.com/o/goalproyecto.png?alt=media&token=e77fae82-9185-402b-95ae-389aba7a3404" ,
+            role: 'Frontend',
+            role2: 'Backend',
+            direction:'https://maza-obreros-opandre-123.vercel.app/',
+            description:"Desarrollado en Nextjs y Firebase",
+            autor: 'Andres Maza',
+            ocupation: 'Desarrollador web',
+            img1: 'https://firebasestorage.googleapis.com/v0/b/panaobrero.appspot.com/o/goalproyecto.png?alt=media&token=e77fae82-9185-402b-95ae-389aba7a3404',
+        },
+        {
+            id:985,
+            title: 'GROUPTASKMZ - TODO LIST',
+            category: 'Web',
+            BackgroundI: 'https://firebasestorage.googleapis.com/v0/b/mzmenudigital.appspot.com/o/maza%2FHipicoccs.png?alt=media&token=ecef7e4e-0455-463d-b680-7912bca814db',
+            role: 'Frontend',
+            role2: 'Backend',
+            description:"Todo list desarrollado en React, MaterialUI y Firebase",
+            autor: 'Andres Maza',
+            direction:'https://grouptaskmz.web.app/',
+            ocupation: 'Desarrollador web',
+            img1: 'https://firebasestorage.googleapis.com/v0/b/mzmenudigital.appspot.com/o/maza%2FHipicoccs.png?alt=media&token=ecef7e4e-0455-463d-b680-7912bca814db',
+        },
+
+        {
+            id: 249,
+            title: 'HIPICOCCS - SISTEMA DE VENTA DE APUESTAS DE CARRERAS DE CABALLOS',
+            category: 'Web',
+            BackgroundI: 'https://firebasestorage.googleapis.com/v0/b/mzmenudigital.appspot.com/o/maza%2FHIPICO.png?alt=media&token=7047de30-70a3-41e7-8810-b68580879a27',
+            role: 'Frontend',
+            role2: 'Backend',
+            description:"Desarrollado en Reactjs, MaterialUI Y Firebase",
+            autor: 'Andres Maza',
+            direction:'https://hipicoccs.vercel.app/',
+            ocupation: 'Desarrollador web',
+            img1: 'https://firebasestorage.googleapis.com/v0/b/mzmenudigital.appspot.com/o/maza%2FHIPICO.png?alt=media&token=7047de30-70a3-41e7-8810-b68580879a27',
+        },
+        {
+            id: 535,
+            title: 'TABLE HORSE - SISTEMA DE SUBASTA DE DE CARRERAS DE CABALLOS ',
+            category: 'Web',
+            BackgroundI: 'https://firebasestorage.googleapis.com/v0/b/mzmenudigital.appspot.com/o/maza%2FHIPICO.png?alt=media&token=7047de30-70a3-41e7-8810-b68580879a27',
+            role: 'Frontend',
+            role2: 'Backend',
+            description:"Desarrollado en Reactjs, MaterialUI Y Firebase",
+            autor: 'Andres Maza',
+            direction:'https://table-horse-races-two.vercel.app/',
+            ocupation: 'Desarrollador web',
+            img1: 'https://firebasestorage.googleapis.com/v0/b/mzmenudigital.appspot.com/o/maza%2FHIPICO.png?alt=media&token=7047de30-70a3-41e7-8810-b68580879a27',
+        },
+    ]
+
+    const SingleWork = (p) => {
+        const singlew = arrWorks.filter(work => work.title === p)
+        return singlew[0]
+    }
+
+    return { arrWorks, SingleWork }
+}

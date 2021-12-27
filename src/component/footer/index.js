@@ -11,10 +11,7 @@ export default function Footer() {
                             {/* <small className="block">&copy; 2021 mazacloud.web.app</small> */}
                         </p>
 
-                        <ul className="fh5co-social-icons">
-                            {/* <li><a href="https://www.instagram.com/maza_ve/"><i className="icon-instagram"></i></a></li> */}
-                            <li><a href="https://wa.me/5804241917939"> <IconWhatsapp height={20} /> </a></li>
-                        </ul>
+               
                     </div>
                 </div>
             </div>

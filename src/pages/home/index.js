@@ -31,11 +31,20 @@ export default function HomePage() {
         <>
             <div id="page">
                 <div className="bg-home">
-                <About />
+
+                    <div className="container-about">
+                        
+                    <h1 style={{fontWeight:'800'}}>Hola, mi nombre es Andres Maza</h1>
+                    <h2>Soy Front-end developer</h2>
+                   <div>
+                       <b> Estoy estudiando Ingeniería Informática. Me interesaron las computadoras y la programación desde mi niñez.</b>
+    
+                  </div>
+                    </div>
 
                 <div className="container">
                         <div className="col-md-2"></div>
-                        <div className="col-md-8" id="services"> <Services /></div>
+                        <div className="col-md-8" id="services"></div>
                         <div className="col-md-2"></div>
                 </div>
                 <Nav />
@@ -44,7 +53,7 @@ export default function HomePage() {
                             <div className="row">
                                 <div className="col-md-3"></div>
                                 <div id="portfolio" className="col-md-6 nav-Categorys animate-box">
-                                 <h3 style={{ color: `${category === 'Web' ? 'gray' : ''}` }}>Portafolio</h3>
+                                 <h3 style={{ color: `#fff`,fontWeight:'800' }}>Proyectos</h3>
                                 </div>
                                 <div className="col-md-3"></div>
                             </div>

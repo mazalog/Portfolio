@@ -30,6 +30,7 @@ export default function PorfolioDetailPage({ params }) {
                                     <div className="col-md-6  text-left fh5co-heading">
                                         <h2>{data.title}</h2>
                                         <p>{data.category}</p>
+                                        <p>{data.description}</p>
                                         <div className="role">
                                             <h3>Role</h3>
                                             <ul>
@@ -38,7 +39,7 @@ export default function PorfolioDetailPage({ params }) {
                                             </ul>
                                         </div>
                                         {
-                                            data.category === 'Web' ? <p><a href={data.direction} class="btn btn-primary btn-outline">Visitar</a></p> : <></>
+                                            data.category === 'Web' ? <p style={{color:'#fff'}} ><a href={data.direction} className="btn btn-primary btn-outline">Visitar</a></p> : <></>
                                         }
                                     </div>
                                     <div className="row ">
@@ -51,10 +52,10 @@ export default function PorfolioDetailPage({ params }) {
                                             }
                                             {
                                                 data.description ? <div className="testimony animate-box">
-                                                    <blockquote>
+                                                    {/* <blockquote>
                                                         <p>&ldquo;{data.description}&rdquo;</p>
                                                         <p className="person"><cite>&mdash; {data.autor}</cite> {data.ocupation}</p>
-                                                    </blockquote>
+                                                    </blockquote> */}
                                                 </div> : <></>
                                             }
 

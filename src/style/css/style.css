@@ -1223,7 +1223,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .btn-primary {
   background: #418af3;
   color: #fff;
-  /* border-radius: 8px; */
+  border-radius: 12px;
   border: 1px solid #0059a3;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {

@@ -37,7 +37,7 @@ export default function HomePage() {
                     <h1 style={{fontWeight:'800'}}>Hola, mi nombre es Andres Maza</h1>
                     <h2>Soy Front-end developer</h2>
                    <div>
-                       <b> Estoy estudiando Ingeniería Informática. Me interesaron las computadoras y la programación desde mi niñez.</b>
+                       <b style={{fontSize:'17px'}}> Estoy estudiando Ingeniería Informática. Me interesaron las computadoras y la programación desde mi niñez.</b>
     
                   </div>
                     </div>

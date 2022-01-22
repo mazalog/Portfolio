@@ -19,7 +19,7 @@ export default function                                                         
             id: 434,
             title: 'VALHALLA GAME STORE',
             category: 'Web',
-            BackgroundI: 'https://firebasestorage.googleapis.com/v0/b/panaobrero.appspot.com/o/valhalla%2FWhatsApp%20Image%202022-01-21%20at%2021.37.46.jpeg?alt=media&token=5a07e858-4ca3-42e2-aa7f-f7225d318b50',
+            BackgroundI: 'https://firebasestorage.googleapis.com/v0/b/panaobrero.appspot.com/o/valhalla%2FVALH1.png?alt=media&token=bcdc92b4-947a-48cb-8422-f688cd8bd0db',
             role: 'Frontend',
             role2: 'Backend',
             direction:'https://www.valhallagamestoreps.com/',

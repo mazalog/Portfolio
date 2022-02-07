@@ -13,7 +13,7 @@ export default function Nav() {
                 <div className="fh5co-top-menu menu-1 text-center">
                     <ul>
                         <li ><a id="link-local" href="/#about"><b>Home</b></a></li>
-                        <li><a id="link-local3" href="/#portfolio"><b>Proyectos</b></a></li>
+                       
                         <li><a id="link-local5" href="/contact"><b>Contacto</b></a></li>
 
                     </ul>

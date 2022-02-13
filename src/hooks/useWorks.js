@@ -92,7 +92,7 @@ export default function                                                         
             role2: 'Backend',
             description:"Desarrollado en Reactjs, MaterialUI Y Firebase. Usuario de prueba user@hp.hp su contraseña es 123456",
             autor: 'Andres Maza',
-            direction:'https://hipicoccs.web.app/',
+            direction:'https://hipicoccs.vercel.app/login',
             ocupation: 'Desarrollador web',
             img1: 'https://firebasestorage.googleapis.com/v0/b/mzmenudigital.appspot.com/o/maza%2FHIPICO.png?alt=media&token=7047de30-70a3-41e7-8810-b68580879a27',
         },
